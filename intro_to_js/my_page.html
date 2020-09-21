@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <p>Here is some text...</p>
+        <p id="second-paragraph">Some more text...</p>
+
+        <script>
+            //put the paragraph element in a variable
+            var paragraph = document.querySelector("p");
+
+            //change the text in the paragraph element
+            paragraph.innerHTML = "Welcome to my page!";
+
+            //make another change...
+            var paragraph2 = document.querySelector("#second-paragraph");
+            paragraph2.innerHTML = "Hope you like it!!!";
+        </script>
+    </body>
+</html>
