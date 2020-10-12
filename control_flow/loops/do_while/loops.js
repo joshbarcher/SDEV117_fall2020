@@ -4,7 +4,6 @@ do
 {
     num = prompt("Enter a number");
     num = parseFloat(num);
-
 } while (Number.isNaN(num));
 
 //output the number
@@ -12,8 +11,8 @@ alert("Your number is " + num);
 
 //how not to write the code segment above with a while loop (redundant code)
 let anotherNum = prompt("Enter a number");
-anotherNum = parseFloat(anotherNum);
 
+anotherNum = parseFloat(anotherNum);
 while (Number.isNaN(anotherNum))
 {
     anotherNum = prompt("Enter a number");
