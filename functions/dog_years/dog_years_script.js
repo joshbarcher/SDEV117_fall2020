@@ -36,3 +36,12 @@ function dogToHumanYears(dogYears)
     return humanYears;
 }
 
+function foo()
+{
+
+}
+
+function bar()
+{
+
+}
