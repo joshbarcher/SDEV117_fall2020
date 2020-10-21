@@ -1,3 +1,17 @@
+//store and print the result
+let result = isEven(22);
+console.log(result);
+
+//just pass the result to print it immediately
+console.log(isEven(21));
+
+let qaSalary = positionSalaries("QA");
+let devSalary = positionSalaries("developer");
+let ceoSalary = positionSalaries("ceo");
+
+console.log("QA: " + qaSalary);
+console.log("Dev: " + devSalary);
+console.log("CEO: " + ceoSalary);
 
 function isEven(num)
 {
@@ -10,13 +24,6 @@ function isEven(num)
         return false;
     }
 }
-
-//store and print the result
-let result = isEven(22);
-console.log(result);
-
-//just pass the result to print it immediately
-console.log(isEven(21));
 
 function positionSalaries(position)
 {
@@ -40,11 +47,3 @@ function positionSalaries(position)
     }
     return result;
 }
-
-let qaSalary = positionSalaries("QA");
-let devSalary = positionSalaries("developer");
-let ceoSalary = positionSalaries("ceo");
-
-console.log("QA: " + qaSalary);
-console.log("Dev: " + devSalary);
-console.log("CEO: " + ceoSalary);
