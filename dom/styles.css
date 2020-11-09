@@ -1,0 +1,10 @@
+body {
+    background-color: aliceblue;
+}
+
+/* add styles for classes of interesting */
+.interesting {
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+    border: 1px solid black;
+}
