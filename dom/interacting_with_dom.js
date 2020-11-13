@@ -1,28 +1,60 @@
-let quotes = document.querySelectorAll("span.quote");
+//add an event handler for the button to add a new table record
+let button = document.querySelector("button");
+button.onclick = function() {
+    //gather data for a new record
+    let name = prompt("Enter your name");
+    let email = prompt("Enter your email");
+    let phone = prompt("Enter your phone number");
 
-for (let i = 0; i < quotes.length; i++)
+    //create new elements for a row
+    let tr = document.createElement("tr"); //create an <tr>
+    let tdName = document.createElement("td");
+    let tdEmail = document.createElement("td");
+    let tdPhone = document.createElement("td");
+
+    //populate the new elements
+    tdName.textContent = name;
+    tdEmail.textContent = email;
+    tdPhone.textContent = phone;
+
+    //add the cells to the row
+    tr.appendChild(tdName);
+    tr.appendChild(tdEmail);
+    tr.appendChild(tdPhone);
+
+    //add the row to the table
+    let tableBody = document.querySelector("table#contact_table tbody");
+    tableBody.appendChild(tr);
+};
+
+function domNavigation()
 {
-    //change the quote
-    let quote = quotes[i];
-    quote.style.fontWeight = "bold";
-    quote.style.display = "block";
-    quote.style.margin = "10px 20px";
+    let quotes = document.querySelectorAll("span.quote");
 
-    let old = quote.textContent;
-    quote.textContent = "\"" + old + "\"";
-    quote.style.backgroundColor = "beige";
+    for (let i = 0; i < quotes.length; i++)
+    {
+        //change the quote
+        let quote = quotes[i];
+        quote.style.fontWeight = "bold";
+        quote.style.display = "block";
+        quote.style.margin = "10px 20px";
 
-    //select a parent element and change it
-    let parentPara = quotes[i].parentElement;
-    parentPara.style.fontFamily = "Courier New";
-}
+        let old = quote.textContent;
+        quote.textContent = "\"" + old + "\"";
+        quote.style.backgroundColor = "beige";
 
-let list = document.querySelector("ol.list");
-let items = list.children;
+        //select a parent element and change it
+        let parentPara = quotes[i].parentElement;
+        parentPara.style.fontFamily = "Courier New";
+    }
 
-for (let i = 0; i < items.length; i++)
-{
-    items[i].style.textDecoration = "underline";
+    let list = document.querySelector("ol.list");
+    let items = list.children;
+
+    for (let i = 0; i < items.length; i++)
+    {
+        items[i].style.textDecoration = "underline";
+    }
 }
 
 function domChanges()
