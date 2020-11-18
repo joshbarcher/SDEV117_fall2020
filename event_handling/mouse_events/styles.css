@@ -1,0 +1,17 @@
+div#container {
+    width: 600px;
+    height: 600px;
+    background-color: lightcoral;
+}
+
+img {
+    width: 100px;
+    display: block;
+    position: absolute;
+    top: 225px;
+    left: 225px;
+}
+
+body {
+    margin: 0;
+}
