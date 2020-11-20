@@ -1,10 +1,24 @@
+const HALF_IMG_SIZE = 50;
+
 window.onload = function() {
     let img = document.querySelector("img");
     //img.ondblclick = clickTarget;
 
     let div = document.querySelector("div");
     div.onclick = clickBackground;
+    div.onmousemove = movingOnBackground;
 };
+
+function movingOnBackground(event)
+{
+    //get where the user clicked
+    let x = event.pageX;
+    let y = event.pageY;
+
+    let inputBox = document.querySelector("input");
+    inputBox.value = x + ", " + y;
+    console.log(x + ", " + y);
+}
 
 function clickBackground(event)
 {
@@ -13,6 +27,10 @@ function clickBackground(event)
     //get where the user clicked
     let x = event.pageX;
     let y = event.pageY;
+
+    //subtract half the image height/width to center it
+    x -= HALF_IMG_SIZE;
+    y -= HALF_IMG_SIZE;
 
     console.log(x + ", " + y);
 
