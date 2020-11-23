@@ -1,0 +1,18 @@
+div {
+    border: 2px solid blue;
+    padding: 10px;
+}
+
+section {
+    border: 2px solid green;
+    padding: 10px;
+}
+
+p {
+    border: 2px solid red;
+    padding: 10px;
+}
+
+div, section, p {
+    background-color: white;
+}
