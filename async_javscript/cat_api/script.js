@@ -16,18 +16,33 @@ function loadCat()
         }
     };
     fetch("https://api.thecatapi.com/v1/images/search", securityValues)
-        .then(function(response) {
-            //we have our response now, get the JSON data from the response
-            return response.json();
-        })
-        .then(function(json) {
-            //do something with the data
-            console.log(json);
-
-            //change the cat image on the page
-            let image = document.getElementById("portrait");
-            image.setAttribute("src", json[0].url);
-        });
+        .then(convertResponseToJson)
+        .then(updatePage);
 }
 
+function convertResponseToJson(response)
+{
+    //we have our response now, get the JSON data from the response
+    return response.json();
+}
 
+function updatePage(json)
+{
+    //do something with the data
+    console.log(json);
+    console.log(json[0].breeds.length);
+
+    //change the cat image on the page
+    let image = document.getElementById("portrait");
+    image.setAttribute("src", json[0].url);
+
+    let span = document.getElementById("breed");
+    if (json[0].breeds.length == 0)
+    {
+        span.textContent = "<unknown>";
+    }
+    else
+    {
+        span.textContent = json[0].breeds[0].name;
+    }
+}

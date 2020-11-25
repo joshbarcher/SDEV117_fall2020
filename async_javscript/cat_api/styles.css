@@ -30,3 +30,7 @@ img#portrait {
     margin: 10px auto;
 }
 
+p {
+    display: block;
+    text-align: center;
+}
