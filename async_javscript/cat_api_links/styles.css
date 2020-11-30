@@ -1,0 +1,21 @@
+img {
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    width: 700px;
+    margin: 0 auto;
+    background: beige;
+}
+
+li {
+    margin: 10px;
+    list-style: none;
+}

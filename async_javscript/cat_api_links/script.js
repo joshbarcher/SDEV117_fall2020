@@ -1,5 +1,7 @@
 window.onload = function() {
-    let address = "https://api.thecatapi.com/v1/images/search?limit=10&breed_id=beng";
+    //make another call to fetch() and load all breeds into a drop down list
+
+    let address = "https://api.thecatapi.com/v1/images/search?limit=50&breed_id=cspa";
     let params = {
         method: "GET",
         mode: "cors",
@@ -30,10 +32,14 @@ function loadLinks(json)
         let li = document.createElement("li");
 
         let anchor = document.createElement("a");
-        anchor.textContent = cat.url;
+        // anchor.textContent = cat.url;
         anchor.setAttribute("href", cat.url);
 
-        //add anchor to item, item to list
+        let img = document.createElement("img");
+        img.setAttribute("src", cat.url);
+
+        //add img to anchor, anchor to item, item to list
+        anchor.appendChild(img);
         li.appendChild(anchor);
         ul.appendChild(li);
     }
