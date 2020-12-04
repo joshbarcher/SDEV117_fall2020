@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="326f19cb-8a81-4de5-bee8-6b95626a75c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/fall2020.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form_validation/in_class_exercise/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form_validation/in_class_exercise/script.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hppsiy5xKPHZvwEGgek2TCu7Gq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/form_validation/example" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rpgfo\Drive\classes\117\workspace\fall2020\form_validation\example" />
+      <recent name="C:\Users\rpgfo\Drive\classes\117\workspace\fall2020\async_javscript\cat_api" />
+      <recent name="C:\Users\rpgfo\Drive\classes\117\workspace\fall2020\event_handling\bubbling" />
+      <recent name="C:\Users\rpgfo\Drive\classes\117\workspace\fall2020\event_handling\mouse_events" />
+      <recent name="C:\Users\rpgfo\Drive\classes\117\workspace\fall2020\event_handling\focus_event_example" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rpgfo\Drive\classes\117\workspace\fall2020\control_flow\loops\while" />
+      <recent name="C:\Users\rpgfo\Drive\classes\117\workspace\fall2020\control_flow" />
+      <recent name="C:\Users\rpgfo\Drive\classes\117\workspace\fall2020\introduction" />
+      <recent name="C:\Users\rpgfo\Drive\classes\117\workspace\fall2020\variables_data_types" />
+      <recent name="C:\Users\rpgfo\Drive\classes\117\workspace\fall2020\wa_facts\scripts" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="326f19cb-8a81-4de5-bee8-6b95626a75c6" name="Default Changelist" comment="" />
+      <created>1600718097337</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600718097337</updated>
+      <workItem from="1600718098508" duration="94000" />
+      <workItem from="1600884344219" duration="4658000" />
+      <workItem from="1601057196637" duration="1875000" />
+      <workItem from="1601315644607" duration="5082000" />
+      <workItem from="1601428706642" duration="2477000" />
+      <workItem from="1601495759399" duration="25000" />
+      <workItem from="1601661792025" duration="2316000" />
+      <workItem from="1601924641936" duration="2544000" />
+      <workItem from="1602094281203" duration="3616000" />
+      <workItem from="1602102262782" duration="692000" />
+      <workItem from="1602267727423" duration="1888000" />
+      <workItem from="1602525768719" duration="5564000" />
+      <workItem from="1602872347109" duration="2427000" />
+      <workItem from="1603128639676" duration="670000" />
+      <workItem from="1603129763617" duration="2304000" />
+      <workItem from="1603303726458" duration="4785000" />
+      <workItem from="1604342996040" duration="6421000" />
+      <workItem from="1604690373750" duration="2383000" />
+      <workItem from="1604948419458" duration="5700000" />
+      <workItem from="1605218282482" duration="1225000" />
+      <workItem from="1605295050120" duration="1479000" />
+      <workItem from="1605553285632" duration="6864000" />
+      <workItem from="1605561290325" duration="1215000" />
+      <workItem from="1605726473905" duration="4773000" />
+      <workItem from="1605732769674" duration="23000" />
+      <workItem from="1605898871321" duration="1924000" />
+      <workItem from="1606160455882" duration="2399000" />
+      <workItem from="1606331030170" duration="5845000" />
+      <workItem from="1606763090148" duration="15000" />
+      <workItem from="1606763400945" duration="4529000" />
+      <workItem from="1606935158131" duration="5857000" />
+      <workItem from="1606943388905" duration="693000" />
+      <workItem from="1607108692599" duration="2841000" />
+    </task>
+    <task id="LOCAL-00001" summary="Adding files for a first example of using Javascript.">
+      <created>1600718153384</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600718153384</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adding an example website for selecting elements in a web page through JS.">
+      <created>1600890901548</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600890901548</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added an example of constant variables and the let keyword.">
+      <created>1601059941361</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601059941361</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added an example of popup boxes and parsing numbers in a JS program.">
+      <created>1601664688548</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601664688548</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added a solution to the personality profile exercise.">
+      <created>1602094309075</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602094309075</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Refactored the project folders. Added an example of definite loops (for loops).">
+      <created>1602100215438</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602100215438</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added an example of while and do-while loops.">
+      <created>1602269296294</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602269296294</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added a basic example of functions in JS.">
+      <created>1602529254632</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602529254632</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added a basic example of functions in JS.">
+      <created>1602532368486</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1602532368486</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added an example of functions in variables and a quiz program that generates questions through functions.">
+      <created>1602874207461</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1602874207461</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added an example of updating a page using loops and arrays!">
+      <created>1603304655409</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1603304655409</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added an example of Javascript objects.">
+      <created>1603309831476</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1603309831476</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added examples of DOM traversal.">
+      <created>1604953418522</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1604953418522</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added an example of the robust way to add elements to the dom.">
+      <created>1605296110437</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1605296110437</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added some examples of events &amp; event handlers.">
+      <created>1605557125932</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1605557125932</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add examples of focus events.">
+      <created>1605559715371</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1605559715371</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Added several examples of key events and mouse events.">
+      <created>1605732785693</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1605732785693</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Added several examples of key events and mouse events.">
+      <created>1605900193595</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1605900193595</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Added an example of making a call with the fetch api to a remote server.">
+      <created>1606164731542</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1606164731542</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Added an example of making a call with the fetch api to a remote server.">
+      <created>1606333121451</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1606333121451</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Added an example of making a call with the fetch api to a remote server.">
+      <created>1606336517953</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1606336517953</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Added another example of consuming APIs.">
+      <created>1606765895685</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1606765895685</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Added another example of consuming APIs.">
+      <created>1606767583518</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1606767583518</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Added a solution for our API practice in class.">
+      <created>1606935324527</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1606935324527</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Added an example of form validation.">
+      <created>1607110478584</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1607110478584</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Adding files for a first example of using Javascript." />
+    <MESSAGE value="Adding an example website for selecting elements in a web page through JS." />
+    <MESSAGE value="Added an example of constant variables and the let keyword." />
+    <MESSAGE value="Added an example of popup boxes and parsing numbers in a JS program." />
+    <MESSAGE value="Added a solution to the personality profile exercise." />
+    <MESSAGE value="Refactored the project folders. Added an example of definite loops (for loops)." />
+    <MESSAGE value="Added an example of while and do-while loops." />
+    <MESSAGE value="Added a basic example of functions in JS." />
+    <MESSAGE value="Added an example of functions in variables and a quiz program that generates questions through functions." />
+    <MESSAGE value="Added an example of updating a page using loops and arrays!" />
+    <MESSAGE value="Added an example of Javascript objects." />
+    <MESSAGE value="Added examples of DOM traversal." />
+    <MESSAGE value="Added an example of the robust way to add elements to the dom." />
+    <MESSAGE value="Added some examples of events &amp; event handlers." />
+    <MESSAGE value="Add examples of focus events." />
+    <MESSAGE value="Added several examples of key events and mouse events." />
+    <MESSAGE value="Added an example of making a call with the fetch api to a remote server." />
+    <MESSAGE value="Added another example of consuming APIs." />
+    <MESSAGE value="Added a solution for our API practice in class." />
+    <MESSAGE value="Added an example of form validation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added an example of form validation." />
+  </component>
+</project>
