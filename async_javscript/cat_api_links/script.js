@@ -1,6 +1,18 @@
 window.onload = function() {
     requestBreeds();
-    requestImages();
+
+    //load images when the user clicks the button
+    let button = document.querySelector("button");
+    button.onclick = function() {
+        //clear out old images
+        let ul = document.getElementById("links");
+        ul.innerHTML = "";
+
+        //load selected images
+        let select = document.getElementById("breeds");
+        let breedId = select.value;
+        requestImages(breedId);
+    };
 };
 
 function requestBreeds()
@@ -16,26 +28,28 @@ function requestBreeds()
     .then(function(response) {
         return response.json();
     })
-    .then(function(json) {
-        breeds = json;
-        loadBreedLinks();
-    });
+    .then(loadBreedLinks);
 }
 
-function loadBreedLinks()
+function loadBreedLinks(breeds)
 {
+    //see if we got the data?
+    console.log(breeds);
+
     let select = document.getElementById("breeds");
     for (let i = 0; i < breeds.length; i++)
     {
+        let breed = breeds[i];
         let option = document.createElement("option");
-        option.textContent = breeds[i].name;
+        option.textContent = breed.name;
+        option.setAttribute("value", breed.id);
         select.appendChild(option);
     }
 }
 
-function requestImages()
+function requestImages(breedId)
 {
-    let address = "https://api.thecatapi.com/v1/images/search?limit=50&breed_id=cspa";
+    let address = "https://api.thecatapi.com/v1/images/search?limit=50&breed_id=" + breedId;
     let params = {
         method: "GET",
         mode: "cors",
